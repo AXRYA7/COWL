@@ -1,0 +1,344 @@
+{
+  ".agents/plugins.json": {
+    "mtime": 1791100160.8874335,
+    "seen": 1791103184.3601642,
+    "ast_hash": "82d5dae4269e9056f4f97eb787b13da6",
+    "semantic_hash": ""
+  },
+  ".agents/skills.json": {
+    "mtime": 1791100177.8702693,
+    "seen": 1791103184.3601723,
+    "ast_hash": "47801ea6a678da43443a1ae0a658cee7",
+    "semantic_hash": ""
+  },
+  ".agents/skills/.antigravity-install-manifest.json": {
+    "mtime": 1791100473.5302289,
+    "seen": 1791103184.360176,
+    "ast_hash": "74d1c83a237decbe147f9ee80a760f0c",
+    "semantic_hash": ""
+  },
+  "tools/device-probe/mode_monitor.py": {
+    "mtime": 1791102750.6104288,
+    "seen": 1791103184.3601787,
+    "ast_hash": "7fa6d79c39636825b63b0aff321fe11f",
+    "semantic_hash": ""
+  },
+  "tools/device-probe/probe.py": {
+    "mtime": 1791102264.4464648,
+    "seen": 1791103184.360181,
+    "ast_hash": "61d82d36b689adda4d2cc2d4b70d277b",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1791100088.708791,
+    "seen": 1791103184.360183,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/rules/ponytail.md": {
+    "mtime": 1791100154.215682,
+    "seen": 1791103184.3601854,
+    "ast_hash": "2d922daa034b7081de0bcd1a1fd01040",
+    "semantic_hash": ""
+  },
+  ".agents/skills/go-rust-reverse/SKILL.md": {
+    "mtime": 1791100467.0233786,
+    "seen": 1791103184.3601873,
+    "ast_hash": "cbc345c7bbd83c887d50948dc391961a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/go-rust-reverse/references/go-rust-notes.md": {
+    "mtime": 1791100467.024378,
+    "seen": 1791103184.3601892,
+    "ast_hash": "b12870da6b8f587b24ab7c125a0371f2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/hardware-security/SKILL.md": {
+    "mtime": 1791100467.053897,
+    "seen": 1791103184.3601909,
+    "ast_hash": "ee32785fb01f7731d0909cbd9a8e2ca0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/hardware-security/references/debug-interface-triage.md": {
+    "mtime": 1791100467.0548956,
+    "seen": 1791103184.3601928,
+    "ast_hash": "4deeddb5a024d6f90f8cbc30ef8f3f4f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/omniroute/SKILL.md": {
+    "mtime": 1791100172.839254,
+    "seen": 1791103184.3601952,
+    "ast_hash": "c05c7c3a70ee115930a87885e548af0e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/protocol-reverse-engineering/SKILL.md": {
+    "mtime": 1791100468.8967533,
+    "seen": 1791103184.3601968,
+    "ast_hash": "e276755dc8e951b46c1cb8473f23b74c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/protocol-reverse-engineering/resources/implementation-playbook.md": {
+    "mtime": 1791100468.8977528,
+    "seen": 1791103184.3601987,
+    "ast_hash": "5e7b74c45c297eaff5e106c3967c6b02",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/SKILL.md": {
+    "mtime": 1791100469.2516358,
+    "seen": 1791103184.3602004,
+    "ast_hash": "003c64e97242dd000d98182155610ba2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/ai-assisted-re.md": {
+    "mtime": 1791100469.252636,
+    "seen": 1791103184.3602023,
+    "ast_hash": "3baea4778bb828b846f28d25edf559fc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/anti-analysis.md": {
+    "mtime": 1791100469.2536352,
+    "seen": 1791103184.360204,
+    "ast_hash": "77d79fda7a893d7f699eeed863ca67dc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/awesome-re-resources.md": {
+    "mtime": 1791100469.2536352,
+    "seen": 1791103184.3602061,
+    "ast_hash": "40c482f18457bdf1fb7a6959333dfdca",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/crypto-decode-tools.md": {
+    "mtime": 1791100469.2536352,
+    "seen": 1791103184.3602078,
+    "ast_hash": "742f9c22bf441e966c50519dd8650cd3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/elf-analysis.md": {
+    "mtime": 1791100469.2546358,
+    "seen": 1791103184.3602097,
+    "ast_hash": "299710a6b761d4c0b9e7b22eab3f152c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/field-notes.md": {
+    "mtime": 1791100469.2556372,
+    "seen": 1791103184.3602114,
+    "ast_hash": "b1c21a4655fadaa373f1692f4b2fc7b7",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/go-reverse.md": {
+    "mtime": 1791100469.2556372,
+    "seen": 1791103184.3602133,
+    "ast_hash": "e38923e36929c0f4f198d65a456cb38b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/kernel-driver-reverse.md": {
+    "mtime": 1791100469.2566354,
+    "seen": 1791103184.360216,
+    "ast_hash": "b3892101aba242b9dafcb1e814ff3993",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/languages-compiled.md": {
+    "mtime": 1791100469.2566354,
+    "seen": 1791103184.3602176,
+    "ast_hash": "288ff3a188d25f1f087c4d9935ff023d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/languages-platforms.md": {
+    "mtime": 1791100469.257635,
+    "seen": 1791103184.3602195,
+    "ast_hash": "857be67cca8feaff0a2cc2609b87a297",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/languages.md": {
+    "mtime": 1791100469.257635,
+    "seen": 1791103184.3602216,
+    "ast_hash": "7d994c73acba73e293d9e82c4b2f4009",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/nonpe-format-cookbook.md": {
+    "mtime": 1791100469.2586353,
+    "seen": 1791103184.360224,
+    "ast_hash": "a44bccf73cde81c581047516738ae863",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/ollvm-deobfuscation.md": {
+    "mtime": 1791100469.2586353,
+    "seen": 1791103184.3602254,
+    "ast_hash": "878a166fb3699bfb27725e09534829df",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/patterns-ctf-2.md": {
+    "mtime": 1791100469.2596354,
+    "seen": 1791103184.3602273,
+    "ast_hash": "54afa9ad548513256089681213ab9790",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/patterns-ctf-3.md": {
+    "mtime": 1791100469.2596354,
+    "seen": 1791103184.360229,
+    "ast_hash": "9be267b4d0133affaafce10541db8fd9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/patterns-ctf.md": {
+    "mtime": 1791100469.2606354,
+    "seen": 1791103184.360231,
+    "ast_hash": "60853f66757a2b034172bb268101c91a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/patterns.md": {
+    "mtime": 1791100469.2606354,
+    "seen": 1791103184.360233,
+    "ast_hash": "b559dda2f777ee6b2ae34c1587c518b2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/platforms-hardware.md": {
+    "mtime": 1791100469.2616355,
+    "seen": 1791103184.3602347,
+    "ast_hash": "8a183200ae3abb7e62b9590056f90c75",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/platforms.md": {
+    "mtime": 1791100469.2616355,
+    "seen": 1791103184.360237,
+    "ast_hash": "235e79de3be9971ec717ef7b74c76191",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/re-agent-workflow.md": {
+    "mtime": 1791100469.2626362,
+    "seen": 1791103184.3602383,
+    "ast_hash": "fe1186949a24ad9f1251cd815aa22811",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/tools-advanced.md": {
+    "mtime": 1791100469.263635,
+    "seen": 1791103184.3602405,
+    "ast_hash": "322efc26eb73a1648e163fb484fd6ba2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/tools-dynamic.md": {
+    "mtime": 1791100469.263635,
+    "seen": 1791103184.3602424,
+    "ast_hash": "3bc0e8d22a0d254855bb80a4438e7c1d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/reverse-engineering/references/tools.md": {
+    "mtime": 1791100469.2646356,
+    "seen": 1791103184.3602445,
+    "ast_hash": "a7fd843582c45ee41267a00991e2082a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1791100088.7097936,
+    "seen": 1791103184.3602462,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1791098050.9191098,
+    "seen": 1791103184.360248,
+    "ast_hash": "07bd24638a3075dca479eb343a343fdd",
+    "semantic_hash": ""
+  },
+  "CONTRIBUTING.md": {
+    "mtime": 1791098060.678499,
+    "seen": 1791103184.3602498,
+    "ast_hash": "2cb48bc2293990b1113ff66bbb9bfd2f",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791098038.4825642,
+    "seen": 1791103184.360252,
+    "ast_hash": "92fd6b59ec37bf3473dfea79e3a2cbf8",
+    "semantic_hash": ""
+  },
+  "SECURITY.md": {
+    "mtime": 1791098072.7223122,
+    "seen": 1791103184.3602543,
+    "ast_hash": "c78ec8a985b894b65af72f0c3215fe56",
+    "semantic_hash": ""
+  },
+  "docs/ARCHITECTURE.md": {
+    "mtime": 1791098114.4446507,
+    "seen": 1791103184.3602576,
+    "ast_hash": "8a2c74ab00b21b4be5fa88d6e0a2ba03",
+    "semantic_hash": ""
+  },
+  "docs/PROJECT.md": {
+    "mtime": 1791098084.559034,
+    "seen": 1791103184.3602593,
+    "ast_hash": "9350421ca1dd021f81bb61d144e3182b",
+    "semantic_hash": ""
+  },
+  "docs/ROADMAP.md": {
+    "mtime": 1791098097.6948802,
+    "seen": 1791103184.3602614,
+    "ast_hash": "85832e2d5ac73dbac729c99fb02343c0",
+    "semantic_hash": ""
+  },
+  "docs/research/experiments/EXP-002-mode-transition.md": {
+    "mtime": 1791103151.3997626,
+    "seen": 1791103184.3602633,
+    "ast_hash": "73d683a47b423fb073ea0c87b784ab12",
+    "semantic_hash": ""
+  },
+  "docs/research/mirage_device_probe_report.md": {
+    "mtime": 1791106799.3793423,
+    "seen": 1791107221.582502,
+    "ast_hash": "0b41d4a3bb4e25f4cef86c149a6fdb5e",
+    "semantic_hash": ""
+  },
+  "docs/research/experiments/EXP-003-programmatic-mode-switch.md": {
+    "mtime": 1791103968.670045,
+    "seen": 1791104521.2449005,
+    "ast_hash": "c235721c5fa928457a6be08d6a1b52c3",
+    "semantic_hash": ""
+  },
+  "docs/research/experiments/EXP-004-official-software-traffic.md": {
+    "mtime": 1791104514.6077745,
+    "seen": 1791104521.2449024,
+    "ast_hash": "301d7272938f09915f4d50d24c6c375e",
+    "semantic_hash": ""
+  },
+  "docs/research/experiments/EXP-005-software-mode-switch.md": {
+    "mtime": 1791107169.731607,
+    "seen": 1791107221.582499,
+    "ast_hash": "92ee55dbea8dd5180baca2b9e9f573ab",
+    "semantic_hash": ""
+  },
+  "app/gui.py": {
+    "mtime": 1791117857.968409,
+    "seen": 1791117878.1311476,
+    "ast_hash": "e195197d1e76fb0d59eb71afb313fe70",
+    "semantic_hash": ""
+  },
+  "core/bridge.py": {
+    "mtime": 1791117836.8162155,
+    "seen": 1791117878.1311502,
+    "ast_hash": "9bbd1ba8342d52272363f4058a3617f7",
+    "semantic_hash": ""
+  },
+  "core/protocol.py": {
+    "mtime": 1791116907.0271337,
+    "seen": 1791117020.23921,
+    "ast_hash": "c50a95cf7907f92e3d2cb13d9ae43bb5",
+    "semantic_hash": ""
+  },
+  "run_cowl.py": {
+    "mtime": 1791116990.3606362,
+    "seen": 1791117020.2392108,
+    "ast_hash": "6859d1039f2f2faf31423fff4a4b5740",
+    "semantic_hash": ""
+  },
+  "tests/test_bridge_mapping.py": {
+    "mtime": 1791116863.2629414,
+    "seen": 1791117020.2392118,
+    "ast_hash": "b938263632ea2df7c1e3dbe89a64cf6c",
+    "semantic_hash": ""
+  },
+  "tests/test_cowl_integration.py": {
+    "mtime": 1791116999.7326975,
+    "seen": 1791117020.2392128,
+    "ast_hash": "350a42931d717e8a890da0dbac671eb2",
+    "semantic_hash": ""
+  }
+}

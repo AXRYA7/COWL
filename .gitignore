@@ -1,0 +1,6 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Antigravity graphify cache
+graphify-out/cache/
