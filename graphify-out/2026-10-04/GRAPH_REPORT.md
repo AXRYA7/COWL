@@ -1,12 +1,12 @@
 # Graph Report - COWL  (2026-10-04)
 
 ## Corpus Check
-- 57 files · ~75,750 words
+- 57 files · ~75,800 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 8 file(s) not represented in the graph (top: (none) 8)
 
 ## Summary
-- 1000 nodes · 1057 edges · 60 communities (51 shown, 9 thin omitted)
+- 1000 nodes · 1058 edges · 62 communities (53 shown, 9 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
@@ -48,10 +48,11 @@
 - 1. Core Principles & Non-Negotiable Directives
 - CTF Reverse - Hardware and Advanced Architecture Reversing
 - Hardware / Embedded Interface Security
-- reverse-engineering/SKILL.md
+- CTF Reverse - Competition-Specific Patterns (Part 2)
 - test_bridge_mapping.py
 - 2. Component Responsibilities
 - Protocol Reverse Engineering
+- AI 辅助逆向工程
 - Security & Hardware Safety Policy
 - OmniRoute — Multi-Channel Message Routing & Aggregation
 - Custom VM Reversing
@@ -76,6 +77,7 @@
 - EXP-003: Programmatic Mode-Switch Investigation
 - EXP-004: Official Software & Legitimate Traffic Investigation
 - 5. Answers to the Core Project Questions
+- Deobfuscation Frameworks
 
 ## God Nodes (most connected - your core abstractions)
 1. `CTF Case Notes` - 54 edges
@@ -100,7 +102,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (60 total, 9 thin omitted)
+## Communities (62 total, 9 thin omitted)
 
 ### Community 0 - "CTF Case Notes"
 Cohesion: 0.04
@@ -119,8 +121,8 @@ Cohesion: 0.04
 Nodes (46): Android APK, Basic Commands, Basic Session, Basic Setup, Binary Ninja, Common Patterns, Convert to Assembly, CTF Reverse - Tools Reference (+38 more)
 
 ### Community 4 - "tools-advanced.md"
-Cohesion: 0.05
-Nodes (41): Advanced GDB Techniques, Advanced Ghidra Scripting, Approach, Approach for CTF, Binary Diffing, Binary Ninja Patching (Python API), BinDiff, Brute-Force with GDB Script (+33 more)
+Cohesion: 0.06
+Nodes (32): Advanced GDB Techniques, Advanced Ghidra Scripting, Approach, Approach for CTF, Binary Diffing, Binary Ninja Patching (Python API), BinDiff, Brute-Force with GDB Script (+24 more)
 
 ### Community 5 - "CTF Reverse - Dynamic Analysis Tools"
 Cohesion: 0.05
@@ -163,12 +165,12 @@ Cohesion: 0.10
 Nodes (20): Ghidra 插件, Go 二进制的关键结构, Go 二进制的特征识别, Go 二进制逆向指南, IDA 中的 Go 分析流程, IDA 插件, moduledata, pclntab (PC Line Table) (+12 more)
 
 ### Community 15 - "ELF 二进制深度分析参考"
-Cohesion: 0.05
-Nodes (39): 1. LLM 辅助快速侦察, 2. 神经反编译, 3. Multi-Agent 验证, 4. LLM 辅助静态分析, 5. macOS/iOS 私有框架逆向 (MOTIF), AI 辅助逆向工程, Constraint-Guided Multi-Agent (2026), Decaf (2026) (+31 more)
+Cohesion: 0.10
+Nodes (20): ARM64 (AArch64) 逆向速查, ELF 二进制深度分析参考, ELF 结构速查, Linux ARM64 系统调用号, Linux 进程注入技术, mmap + 代码注入, /proc/self/mem 自修改, ptrace 注入 (+12 more)
 
 ### Community 16 - "ControllerBridge"
 Cohesion: 0.07
-Nodes (24): CowlApp, main(), COWL — Desktop GUI Application Lightweight, zero-bloat controller mode switcher…, ControllerBridge, COWL Controller Bridge Manages connection to the physical Kreo Mirage…, Toggle the virtual Xbox 360 controller., Start the background poll and bridge thread., Stop the bridge and release virtual controllers. (+16 more)
+Nodes (25): CowlApp, main(), COWL — Desktop GUI Application (Decoupled, Zero-Lag) Lightweight, zero-bloat…, Steady 30 FPS GUI refresh without touching fast input loop., ControllerBridge, COWL Controller Bridge (Ultra-Low Latency Engine) Manages connection to the…, Enumerate devices to find Kreo Mirage in either state., Toggle the virtual Xbox 360 controller. (+17 more)
 
 ### Community 17 - "macOS / iOS Reversing"
 Cohesion: 0.11
@@ -230,8 +232,8 @@ Nodes (11): ARM64/AArch64 Reversing and Exploitation, CTF Reverse - Hardware and
 Cohesion: 0.20
 Nodes (9): Hardware / Embedded Interface Security, Limitations, When to Use, 任务完成自检, 参考, 工作流, 工具链, 路由上下文 (+1 more)
 
-### Community 32 - "reverse-engineering/SKILL.md"
-Cohesion: 0.17
+### Community 32 - "CTF Reverse - Competition-Specific Patterns (Part 2)"
+Cohesion: 0.20
 Nodes (10): CTF Reverse - Competition-Specific Patterns (Part 2), CVP/LLL Lattice for Constrained Integer Validation (HTB ShadowLabyrinth), Decision Tree Function Obfuscation (HTB WonderSMS), Embedded ZIP + XOR License Decryption (MetaCTF 2026), GF(2^8) Gaussian Elimination for Flag Recovery (ApoorvCTF 2026), Multi-Layer Self-Decrypting Binary (DiceCTF 2026), Prefix Hash Brute-Force (Nullcon 2026), ROP Chain Obfuscation in Modified Binary (PlaidCTF 2016) (+2 more)
 
 ### Community 33 - "test_bridge_mapping.py"
@@ -245,6 +247,10 @@ Nodes (8): 1. Architectural Overview, 2.1 Core Domain (`core/`), 2.2 Transport L
 ### Community 35 - "Protocol Reverse Engineering"
 Cohesion: 0.29
 Nodes (6): Do not use this skill when, Instructions, Limitations, Protocol Reverse Engineering, Resources, Use this skill when
+
+### Community 36 - "AI 辅助逆向工程"
+Cohesion: 0.11
+Nodes (19): 1. LLM 辅助快速侦察, 2. 神经反编译, 3. Multi-Agent 验证, 4. LLM 辅助静态分析, 5. macOS/iOS 私有框架逆向 (MOTIF), AI 辅助逆向工程, Constraint-Guided Multi-Agent (2026), Decaf (2026) (+11 more)
 
 ### Community 37 - "Security & Hardware Safety Policy"
 Cohesion: 0.29
@@ -306,19 +312,23 @@ Nodes (12): 1. Objective, 2.1 Audit of Kreo Kontrol (`kontrol.kreo-tech.com`), 2
 Cohesion: 0.11
 Nodes (18): 1. Executive Summary & Objective, 2.1 Manufacturer Documentation & Manual Audit, 2.2 Hardware Platform & ShanWan ODM Architecture Analysis, 2.3 Detailed Analysis of the Physical Transition, 2. Systematic Research & Evidence Gathering, 3.1 Pathway A: Host Command in State 1 (Xbox 360: `045E:028E`), 3.2 Pathway B: Host Command in State 2 (PS4 / DS4: `054C:05C4`), 3. Analysis of Host-Side Communication Interfaces (+10 more)
 
+### Community 61 - "Deobfuscation Frameworks"
+Cohesion: 0.22
+Nodes (9): d810-ng (IDA) — 本地首选, DeObfBR — BR 混淆专项, Deobfuscation Frameworks, deollvm — ARM64 Unicorn, GOOMBA (Ghidra), Miasm, obpo-plugin (IDA) — 效果最强，云插件, ollvm-breaker (Binary Ninja) (+1 more)
+
 ## Knowledge Gaps
 - **702 isolated node(s):** `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `graphify` (+697 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 766 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 765 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Reverse Engineering Field Notes` connect `Specialized Patterns` to `reverse-engineering/SKILL.md`, `CTF Case Notes`?**
+- **Why does `Reverse Engineering Field Notes` connect `Specialized Patterns` to `CTF Case Notes`, `tools-advanced.md`?**
   _High betweenness centrality (0.091) - this node is a cross-community bridge._
 - **Why does `CTF Case Notes` connect `CTF Case Notes` to `Specialized Patterns`?**
   _High betweenness centrality (0.057) - this node is a cross-community bridge._
-- **Why does `CTF Reverse - Patterns & Techniques` connect `CTF Reverse - Patterns & Techniques` to `reverse-engineering/SKILL.md`, `Custom VM Reversing`, `Anti-Debugging Techniques`, `Nanomites`, `S-Box / Keystream Generation`, `LLVM (Low Level Virtual Machine) Obfuscation (Control Flow Flattening)`, `Exception Handler Obfuscation`, `Memory Dump Analysis`, `x86-64 Gotchas`, `SECCOMP/BPF Filter Analysis`, `Known-Plaintext XOR (Flag Prefix)`, `Self-Modifying Code`, `Signal Handler Chain + LD_PRELOAD Oracle (Nuit du Hack 2016)`?**
+- **Why does `CTF Reverse - Patterns & Techniques` connect `CTF Reverse - Patterns & Techniques` to `tools-advanced.md`, `Custom VM Reversing`, `Anti-Debugging Techniques`, `Nanomites`, `S-Box / Keystream Generation`, `LLVM (Low Level Virtual Machine) Obfuscation (Control Flow Flattening)`, `Exception Handler Obfuscation`, `Memory Dump Analysis`, `x86-64 Gotchas`, `SECCOMP/BPF Filter Analysis`, `Known-Plaintext XOR (Flag Prefix)`, `Self-Modifying Code`, `Signal Handler Chain + LD_PRELOAD Oracle (Nuit du Hack 2016)`?**
   _High betweenness centrality (0.055) - this node is a cross-community bridge._
 - **What connects `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `HIDP_BUTTON_CAPS` to the rest of the system?**
   _702 weakly-connected nodes found - possible documentation gaps or missing edges._

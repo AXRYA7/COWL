@@ -183,7 +183,7 @@
       "file_type": "code",
       "norm_label": "controllerbridge",
       "source_file": "core/bridge.py",
-      "source_location": "L18"
+      "source_location": "L37"
     },
     {
       "id": "tools_device_probe_mode_monitor_capture_current_controller_state",
@@ -402,18 +402,6 @@
       "source_location": "L230"
     },
     {
-      "id": "app_gui_cowlapp_apply_input_ui",
-      "label": "._apply_input_ui()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "file_type": "code",
-      "norm_label": "._apply_input_ui()",
-      "source_file": "app/gui.py",
-      "source_location": "L244"
-    },
-    {
       "id": "app_gui_cowlapp_apply_status_ui",
       "label": "._apply_status_ui()",
       "_callable": true,
@@ -423,7 +411,7 @@
       "file_type": "code",
       "norm_label": "._apply_status_ui()",
       "source_file": "app/gui.py",
-      "source_location": "L194"
+      "source_location": "L196"
     },
     {
       "id": "app_gui_cowlapp_build_ui",
@@ -435,7 +423,7 @@
       "file_type": "code",
       "norm_label": "._build_ui()",
       "source_file": "app/gui.py",
-      "source_location": "L30"
+      "source_location": "L33"
     },
     {
       "id": "app_gui_cowlapp_init",
@@ -450,18 +438,6 @@
       "source_location": "L15"
     },
     {
-      "id": "app_gui_cowlapp_on_bridge_input",
-      "label": "._on_bridge_input()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "file_type": "code",
-      "norm_label": "._on_bridge_input()",
-      "source_file": "app/gui.py",
-      "source_location": "L241"
-    },
-    {
       "id": "app_gui_cowlapp_on_bridge_status",
       "label": "._on_bridge_status()",
       "_callable": true,
@@ -471,7 +447,7 @@
       "file_type": "code",
       "norm_label": "._on_bridge_status()",
       "source_file": "app/gui.py",
-      "source_location": "L190"
+      "source_location": "L193"
     },
     {
       "id": "app_gui_cowlapp_on_close",
@@ -483,7 +459,7 @@
       "file_type": "code",
       "norm_label": "._on_close()",
       "source_file": "app/gui.py",
-      "source_location": "L260"
+      "source_location": "L264"
     },
     {
       "id": "app_gui_cowlapp_on_toggle_click",
@@ -495,7 +471,19 @@
       "file_type": "code",
       "norm_label": "._on_toggle_click()",
       "source_file": "app/gui.py",
-      "source_location": "L186"
+      "source_location": "L189"
+    },
+    {
+      "id": "app_gui_cowlapp_poll_diagnostics",
+      "label": "._poll_diagnostics()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "file_type": "code",
+      "norm_label": "._poll_diagnostics()",
+      "source_file": "app/gui.py",
+      "source_location": "L242"
     },
     {
       "id": "app_gui_main",
@@ -507,7 +495,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "app/gui.py",
-      "source_location": "L264"
+      "source_location": "L268"
     },
     {
       "id": "core_bridge_controllerbridge_apply_inputs_to_vgamepad",
@@ -519,7 +507,7 @@
       "file_type": "code",
       "norm_label": "._apply_inputs_to_vgamepad()",
       "source_file": "core/bridge.py",
-      "source_location": "L165"
+      "source_location": "L189"
     },
     {
       "id": "core_bridge_controllerbridge_close_device",
@@ -531,7 +519,7 @@
       "file_type": "code",
       "norm_label": "._close_device()",
       "source_file": "core/bridge.py",
-      "source_location": "L80"
+      "source_location": "L98"
     },
     {
       "id": "core_bridge_controllerbridge_find_mirage",
@@ -543,7 +531,7 @@
       "file_type": "code",
       "norm_label": "._find_mirage()",
       "source_file": "core/bridge.py",
-      "source_location": "L88"
+      "source_location": "L106"
     },
     {
       "id": "core_bridge_controllerbridge_init",
@@ -555,7 +543,7 @@
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "core/bridge.py",
-      "source_location": "L19"
+      "source_location": "L38"
     },
     {
       "id": "core_bridge_controllerbridge_notify_status",
@@ -567,7 +555,7 @@
       "file_type": "code",
       "norm_label": "._notify_status()",
       "source_file": "core/bridge.py",
-      "source_location": "L73"
+      "source_location": "L91"
     },
     {
       "id": "core_bridge_controllerbridge_run_loop",
@@ -579,7 +567,7 @@
       "file_type": "code",
       "norm_label": "._run_loop()",
       "source_file": "core/bridge.py",
-      "source_location": "L109"
+      "source_location": "L126"
     },
     {
       "id": "core_bridge_controllerbridge_set_virtual_xinput",
@@ -591,7 +579,7 @@
       "file_type": "code",
       "norm_label": ".set_virtual_xinput()",
       "source_file": "core/bridge.py",
-      "source_location": "L34"
+      "source_location": "L52"
     },
     {
       "id": "core_bridge_controllerbridge_start",
@@ -603,7 +591,7 @@
       "file_type": "code",
       "norm_label": ".start()",
       "source_file": "core/bridge.py",
-      "source_location": "L54"
+      "source_location": "L72"
     },
     {
       "id": "core_bridge_controllerbridge_stop",
@@ -615,7 +603,7 @@
       "file_type": "code",
       "norm_label": ".stop()",
       "source_file": "core/bridge.py",
-      "source_location": "L62"
+      "source_location": "L80"
     },
     {
       "id": "core_protocol_parse_ds4_input_report",
@@ -2920,258 +2908,6 @@
       "source_location": "L33"
     },
     {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re",
-      "label": "ai-assisted-re.md",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "ai-assisted-re.md",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_1_llm_\u8f85\u52a9\u5feb\u901f\u4fa6\u5bdf",
-      "label": "1. LLM \u8f85\u52a9\u5feb\u901f\u4fa6\u5bdf",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. llm \u8f85\u52a9\u5feb\u901f\u4fa6\u5bdf",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L39"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_2_\u795e\u7ecf\u53cd\u7f16\u8bd1",
-      "label": "2. \u795e\u7ecf\u53cd\u7f16\u8bd1",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. \u795e\u7ecf\u53cd\u7f16\u8bd1",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L48"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_3_multi_agent_\u9a8c\u8bc1",
-      "label": "3. Multi-Agent \u9a8c\u8bc1",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. multi-agent \u9a8c\u8bc1",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L59"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_4_llm_\u8f85\u52a9\u9759\u6001\u5206\u6790",
-      "label": "4. LLM \u8f85\u52a9\u9759\u6001\u5206\u6790",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. llm \u8f85\u52a9\u9759\u6001\u5206\u6790",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L70"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_5_macos_ios_\u79c1\u6709\u6846\u67b6\u9006\u5411_motif",
-      "label": "5. macOS/iOS \u79c1\u6709\u6846\u67b6\u9006\u5411 (MOTIF)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. macos/ios \u79c1\u6709\u6846\u67b6\u9006\u5411 (motif)",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L80"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_ai_\u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
-      "label": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "ai \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_constraint_guided_multi_agent_2026",
-      "label": "Constraint-Guided Multi-Agent (2026)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "constraint-guided multi-agent (2026)",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L19"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_decaf_2026",
-      "label": "Decaf (2026)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "decaf (2026)",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L14"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_glaurung",
-      "label": "Glaurung",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "glaurung",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L31"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_llm4decompile",
-      "label": "LLM4Decompile",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "llm4decompile",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L8"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_llm_prompt_\u6a21\u677f",
-      "label": "LLM Prompt \u6a21\u677f",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "llm prompt \u6a21\u677f",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L88"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_remend_2026",
-      "label": "REMEND (2026)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "remend (2026)",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L26"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u51fd\u6570\u8bed\u4e49\u5206\u6790",
-      "label": "\u51fd\u6570\u8bed\u4e49\u5206\u6790",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u51fd\u6570\u8bed\u4e49\u5206\u6790",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L90"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u534f\u8bae\u683c\u5f0f\u63a8\u65ad",
-      "label": "\u534f\u8bae\u683c\u5f0f\u63a8\u65ad",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u534f\u8bae\u683c\u5f0f\u63a8\u65ad",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L118"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u5c40\u9650\u6027",
-      "label": "\u5c40\u9650\u6027",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u5c40\u9650\u6027",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L141"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u5de5\u4f5c\u6d41_ai_\u589e\u5f3a\u4e8c\u8fdb\u5236\u5206\u6790",
-      "label": "\u5de5\u4f5c\u6d41\uff1aAI \u589e\u5f3a\u4e8c\u8fdb\u5236\u5206\u6790",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u5de5\u4f5c\u6d41:ai \u589e\u5f3a\u4e8c\u8fdb\u5236\u5206\u6790",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L37"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u5de5\u5177\u9009\u578b",
-      "label": "\u5de5\u5177\u9009\u578b",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u5de5\u5177\u9009\u578b",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L131"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u6838\u5fc3\u5de5\u5177\u4e0e\u6a21\u578b",
-      "label": "\u6838\u5fc3\u5de5\u5177\u4e0e\u6a21\u578b",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u6838\u5fc3\u5de5\u5177\u4e0e\u6a21\u578b",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L6"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u7b97\u6cd5\u8bc6\u522b",
-      "label": "\u7b97\u6cd5\u8bc6\u522b",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u7b97\u6cd5\u8bc6\u522b",
-      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
-      "source_location": "L105"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_elf_analysis",
-      "label": "elf-analysis.md",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "elf-analysis.md",
-      "source_file": ".agents/skills/reverse-engineering/references/elf-analysis.md",
-      "source_location": "L1"
-    },
-    {
       "id": "agents_skills_reverse_engineering_references_elf_analysis_arm64_aarch64_\u9006\u5411\u901f\u67e5",
       "label": "ARM64 (AArch64) \u9006\u5411\u901f\u67e5",
       "_origin": "ast",
@@ -3412,18 +3148,6 @@
       "source_location": "L73"
     },
     {
-      "id": "agents_skills_reverse_engineering_references_ollvm_deobfuscation",
-      "label": "ollvm-deobfuscation.md",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "ELF \u4e8c\u8fdb\u5236\u6df1\u5ea6\u5206\u6790\u53c2\u8003",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "ollvm-deobfuscation.md",
-      "source_file": ".agents/skills/reverse-engineering/references/ollvm-deobfuscation.md",
-      "source_location": "L1"
-    },
-    {
       "id": "app_gui",
       "label": "gui.py",
       "_origin": "ast",
@@ -3491,61 +3215,39 @@
     },
     {
       "id": "app_gui_rationale_1",
-      "label": "COWL \u2014 Desktop GUI Application Lightweight, zero-bloat controller mode switcher\u2026",
+      "label": "COWL \u2014 Desktop GUI Application (Decoupled, Zero-Lag) Lightweight, zero-bloat\u2026",
       "_origin": "ast",
       "community": 16,
       "community_name": "ControllerBridge",
       "file_type": "rationale",
-      "norm_label": "cowl \u2014 desktop gui application lightweight, zero-bloat controller mode switcher...",
+      "norm_label": "cowl \u2014 desktop gui application (decoupled, zero-lag) lightweight, zero-bloat...",
       "source_file": "app/gui.py",
       "source_location": "L1"
     },
     {
-      "id": "core_bridge_rationale_1",
-      "label": "COWL Controller Bridge Manages connection to the physical Kreo Mirage\u2026",
+      "id": "app_gui_rationale_243",
+      "label": "Steady 30 FPS GUI refresh without touching fast input loop.",
       "_origin": "ast",
       "community": 16,
       "community_name": "ControllerBridge",
       "file_type": "rationale",
-      "norm_label": "cowl controller bridge manages connection to the physical kreo mirage...",
+      "norm_label": "steady 30 fps gui refresh without touching fast input loop.",
+      "source_file": "app/gui.py",
+      "source_location": "L243"
+    },
+    {
+      "id": "core_bridge_rationale_1",
+      "label": "COWL Controller Bridge (Ultra-Low Latency Engine) Manages connection to the\u2026",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "file_type": "rationale",
+      "norm_label": "cowl controller bridge (ultra-low latency engine) manages connection to the...",
       "source_file": "core/bridge.py",
       "source_location": "L1"
     },
     {
-      "id": "core_bridge_rationale_35",
-      "label": "Toggle the virtual Xbox 360 controller.",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "file_type": "rationale",
-      "norm_label": "toggle the virtual xbox 360 controller.",
-      "source_file": "core/bridge.py",
-      "source_location": "L35"
-    },
-    {
-      "id": "core_bridge_rationale_55",
-      "label": "Start the background poll and bridge thread.",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "file_type": "rationale",
-      "norm_label": "start the background poll and bridge thread.",
-      "source_file": "core/bridge.py",
-      "source_location": "L55"
-    },
-    {
-      "id": "core_bridge_rationale_63",
-      "label": "Stop the bridge and release virtual controllers.",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "file_type": "rationale",
-      "norm_label": "stop the bridge and release virtual controllers.",
-      "source_file": "core/bridge.py",
-      "source_location": "L63"
-    },
-    {
-      "id": "core_bridge_rationale_89",
+      "id": "core_bridge_rationale_107",
       "label": "Enumerate devices to find Kreo Mirage in either state.",
       "_origin": "ast",
       "community": 16,
@@ -3553,7 +3255,40 @@
       "file_type": "rationale",
       "norm_label": "enumerate devices to find kreo mirage in either state.",
       "source_file": "core/bridge.py",
-      "source_location": "L89"
+      "source_location": "L107"
+    },
+    {
+      "id": "core_bridge_rationale_53",
+      "label": "Toggle the virtual Xbox 360 controller.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "file_type": "rationale",
+      "norm_label": "toggle the virtual xbox 360 controller.",
+      "source_file": "core/bridge.py",
+      "source_location": "L53"
+    },
+    {
+      "id": "core_bridge_rationale_73",
+      "label": "Start the background poll and bridge thread.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "file_type": "rationale",
+      "norm_label": "start the background poll and bridge thread.",
+      "source_file": "core/bridge.py",
+      "source_location": "L73"
+    },
+    {
+      "id": "core_bridge_rationale_81",
+      "label": "Stop the bridge and release virtual controllers.",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "file_type": "rationale",
+      "norm_label": "stop the bridge and release virtual controllers.",
+      "source_file": "core/bridge.py",
+      "source_location": "L81"
     },
     {
       "id": "core_protocol_rationale_1",
@@ -7426,130 +7161,11 @@
       "source_location": "L33"
     },
     {
-      "id": "agents_skills_reverse_engineering_skill",
-      "label": "reverse-engineering/SKILL.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "reverse-engineering",
-        "description": "General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures.",
-        "risk": "safe",
-        "source": "https://github.com/zhaoxuya520/reverse-skill",
-        "source_repo": "zhaoxuya520/reverse-skill",
-        "source_type": "community",
-        "date_added": "2026-08-25",
-        "license": "MIT",
-        "license_source": "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
-      },
-      "node_kind": "page",
-      "norm_label": "reverse-engineering/skill.md",
-      "source_file": ".agents/skills/reverse-engineering/SKILL.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_anti_analysis",
-      "label": "anti-analysis.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "anti-analysis.md",
-      "source_file": ".agents/skills/reverse-engineering/references/anti-analysis.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_field_notes",
-      "label": "field-notes.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "field-notes.md",
-      "source_file": ".agents/skills/reverse-engineering/references/field-notes.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_languages",
-      "label": "languages.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "languages.md",
-      "source_file": ".agents/skills/reverse-engineering/references/languages.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_languages_compiled",
-      "label": "languages-compiled.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "languages-compiled.md",
-      "source_file": ".agents/skills/reverse-engineering/references/languages-compiled.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_languages_platforms",
-      "label": "languages-platforms.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "languages-platforms.md",
-      "source_file": ".agents/skills/reverse-engineering/references/languages-platforms.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_patterns",
-      "label": "patterns.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "patterns.md",
-      "source_file": ".agents/skills/reverse-engineering/references/patterns.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_patterns_ctf",
-      "label": "patterns-ctf.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "patterns-ctf.md",
-      "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_patterns_ctf_2",
-      "label": "patterns-ctf-2.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "patterns-ctf-2.md",
-      "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf-2.md",
-      "source_location": "L1"
-    },
-    {
       "id": "agents_skills_reverse_engineering_references_patterns_ctf_2_ctf_reverse_competition_specific_patterns_part_2",
       "label": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "ctf reverse - competition-specific patterns (part 2)",
@@ -7561,7 +7177,7 @@
       "label": "CVP/LLL Lattice for Constrained Integer Validation (HTB ShadowLabyrinth)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "cvp/lll lattice for constrained integer validation (htb shadowlabyrinth)",
@@ -7573,7 +7189,7 @@
       "label": "Decision Tree Function Obfuscation (HTB WonderSMS)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "decision tree function obfuscation (htb wondersms)",
@@ -7585,7 +7201,7 @@
       "label": "Embedded ZIP + XOR License Decryption (MetaCTF 2026)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "embedded zip + xor license decryption (metactf 2026)",
@@ -7597,7 +7213,7 @@
       "label": "GF(2^8) Gaussian Elimination for Flag Recovery (ApoorvCTF 2026)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "gf(2^8) gaussian elimination for flag recovery (apoorvctf 2026)",
@@ -7609,7 +7225,7 @@
       "label": "Multi-Layer Self-Decrypting Binary (DiceCTF 2026)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "multi-layer self-decrypting binary (dicectf 2026)",
@@ -7621,7 +7237,7 @@
       "label": "Prefix Hash Brute-Force (Nullcon 2026)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "prefix hash brute-force (nullcon 2026)",
@@ -7633,7 +7249,7 @@
       "label": "ROP Chain Obfuscation in Modified Binary (PlaidCTF 2016)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "rop chain obfuscation in modified binary (plaidctf 2016)",
@@ -7645,7 +7261,7 @@
       "label": "Stack String Deobfuscation from .rodata XOR Blob (Nullcon 2026)",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "stack string deobfuscation from .rodata xor blob (nullcon 2026)",
@@ -7657,72 +7273,12 @@
       "label": "Table of Contents",
       "_origin": "ast",
       "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
+      "community_name": "CTF Reverse - Competition-Specific Patterns (Part 2)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "table of contents",
       "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf-2.md",
       "source_location": "L3"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_patterns_ctf_3",
-      "label": "patterns-ctf-3.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "patterns-ctf-3.md",
-      "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf-3.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_platforms",
-      "label": "platforms.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "platforms.md",
-      "source_file": ".agents/skills/reverse-engineering/references/platforms.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_platforms_hardware",
-      "label": "platforms-hardware.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "platforms-hardware.md",
-      "source_file": ".agents/skills/reverse-engineering/references/platforms-hardware.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools",
-      "label": "tools.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "tools.md",
-      "source_file": ".agents/skills/reverse-engineering/references/tools.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_dynamic",
-      "label": "tools-dynamic.md",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "reverse-engineering/SKILL.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "tools-dynamic.md",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-dynamic.md",
-      "source_location": "L1"
     },
     {
       "id": "tests_test_bridge_mapping",
@@ -7979,6 +7535,234 @@
       "source_location": "L13"
     },
     {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_1_llm_\u8f85\u52a9\u5feb\u901f\u4fa6\u5bdf",
+      "label": "1. LLM \u8f85\u52a9\u5feb\u901f\u4fa6\u5bdf",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. llm \u8f85\u52a9\u5feb\u901f\u4fa6\u5bdf",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_2_\u795e\u7ecf\u53cd\u7f16\u8bd1",
+      "label": "2. \u795e\u7ecf\u53cd\u7f16\u8bd1",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. \u795e\u7ecf\u53cd\u7f16\u8bd1",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_3_multi_agent_\u9a8c\u8bc1",
+      "label": "3. Multi-Agent \u9a8c\u8bc1",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. multi-agent \u9a8c\u8bc1",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_4_llm_\u8f85\u52a9\u9759\u6001\u5206\u6790",
+      "label": "4. LLM \u8f85\u52a9\u9759\u6001\u5206\u6790",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. llm \u8f85\u52a9\u9759\u6001\u5206\u6790",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_5_macos_ios_\u79c1\u6709\u6846\u67b6\u9006\u5411_motif",
+      "label": "5. macOS/iOS \u79c1\u6709\u6846\u67b6\u9006\u5411 (MOTIF)",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. macos/ios \u79c1\u6709\u6846\u67b6\u9006\u5411 (motif)",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_ai_\u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "label": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ai \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_constraint_guided_multi_agent_2026",
+      "label": "Constraint-Guided Multi-Agent (2026)",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "constraint-guided multi-agent (2026)",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_decaf_2026",
+      "label": "Decaf (2026)",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "decaf (2026)",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_glaurung",
+      "label": "Glaurung",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "glaurung",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_llm4decompile",
+      "label": "LLM4Decompile",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "llm4decompile",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_llm_prompt_\u6a21\u677f",
+      "label": "LLM Prompt \u6a21\u677f",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "llm prompt \u6a21\u677f",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L88"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_remend_2026",
+      "label": "REMEND (2026)",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "remend (2026)",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u51fd\u6570\u8bed\u4e49\u5206\u6790",
+      "label": "\u51fd\u6570\u8bed\u4e49\u5206\u6790",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u51fd\u6570\u8bed\u4e49\u5206\u6790",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u534f\u8bae\u683c\u5f0f\u63a8\u65ad",
+      "label": "\u534f\u8bae\u683c\u5f0f\u63a8\u65ad",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u534f\u8bae\u683c\u5f0f\u63a8\u65ad",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L118"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u5c40\u9650\u6027",
+      "label": "\u5c40\u9650\u6027",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u5c40\u9650\u6027",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L141"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u5de5\u4f5c\u6d41_ai_\u589e\u5f3a\u4e8c\u8fdb\u5236\u5206\u6790",
+      "label": "\u5de5\u4f5c\u6d41\uff1aAI \u589e\u5f3a\u4e8c\u8fdb\u5236\u5206\u6790",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u5de5\u4f5c\u6d41:ai \u589e\u5f3a\u4e8c\u8fdb\u5236\u5206\u6790",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u5de5\u5177\u9009\u578b",
+      "label": "\u5de5\u5177\u9009\u578b",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u5de5\u5177\u9009\u578b",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L131"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u6838\u5fc3\u5de5\u5177\u4e0e\u6a21\u578b",
+      "label": "\u6838\u5fc3\u5de5\u5177\u4e0e\u6a21\u578b",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u6838\u5fc3\u5de5\u5177\u4e0e\u6a21\u578b",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re_\u7b97\u6cd5\u8bc6\u522b",
+      "label": "\u7b97\u6cd5\u8bc6\u522b",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "AI \u8f85\u52a9\u9006\u5411\u5de5\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u7b97\u6cd5\u8bc6\u522b",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L105"
+    },
+    {
       "id": "security",
       "label": "SECURITY.md",
       "_origin": "ast",
@@ -8211,6 +7995,209 @@
       "source_location": "L84"
     },
     {
+      "id": "agents_skills_reverse_engineering_skill",
+      "label": "reverse-engineering/SKILL.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "reverse-engineering",
+        "description": "General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures.",
+        "risk": "safe",
+        "source": "https://github.com/zhaoxuya520/reverse-skill",
+        "source_repo": "zhaoxuya520/reverse-skill",
+        "source_type": "community",
+        "date_added": "2026-08-25",
+        "license": "MIT",
+        "license_source": "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+      },
+      "node_kind": "page",
+      "norm_label": "reverse-engineering/skill.md",
+      "source_file": ".agents/skills/reverse-engineering/SKILL.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ai_assisted_re",
+      "label": "ai-assisted-re.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "ai-assisted-re.md",
+      "source_file": ".agents/skills/reverse-engineering/references/ai-assisted-re.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_anti_analysis",
+      "label": "anti-analysis.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "anti-analysis.md",
+      "source_file": ".agents/skills/reverse-engineering/references/anti-analysis.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_elf_analysis",
+      "label": "elf-analysis.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "elf-analysis.md",
+      "source_file": ".agents/skills/reverse-engineering/references/elf-analysis.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_field_notes",
+      "label": "field-notes.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "field-notes.md",
+      "source_file": ".agents/skills/reverse-engineering/references/field-notes.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_languages",
+      "label": "languages.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "languages.md",
+      "source_file": ".agents/skills/reverse-engineering/references/languages.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_languages_compiled",
+      "label": "languages-compiled.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "languages-compiled.md",
+      "source_file": ".agents/skills/reverse-engineering/references/languages-compiled.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_languages_platforms",
+      "label": "languages-platforms.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "languages-platforms.md",
+      "source_file": ".agents/skills/reverse-engineering/references/languages-platforms.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_ollvm_deobfuscation",
+      "label": "ollvm-deobfuscation.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "ollvm-deobfuscation.md",
+      "source_file": ".agents/skills/reverse-engineering/references/ollvm-deobfuscation.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_patterns",
+      "label": "patterns.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "patterns.md",
+      "source_file": ".agents/skills/reverse-engineering/references/patterns.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_patterns_ctf",
+      "label": "patterns-ctf.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "patterns-ctf.md",
+      "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_patterns_ctf_2",
+      "label": "patterns-ctf-2.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "patterns-ctf-2.md",
+      "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf-2.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_patterns_ctf_3",
+      "label": "patterns-ctf-3.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "patterns-ctf-3.md",
+      "source_file": ".agents/skills/reverse-engineering/references/patterns-ctf-3.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_platforms",
+      "label": "platforms.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "platforms.md",
+      "source_file": ".agents/skills/reverse-engineering/references/platforms.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_platforms_hardware",
+      "label": "platforms-hardware.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "platforms-hardware.md",
+      "source_file": ".agents/skills/reverse-engineering/references/platforms-hardware.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools",
+      "label": "tools.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "tools.md",
+      "source_file": ".agents/skills/reverse-engineering/references/tools.md",
+      "source_location": "L1"
+    },
+    {
       "id": "agents_skills_reverse_engineering_references_tools_advanced",
       "label": "tools-advanced.md",
       "_origin": "ast",
@@ -8355,54 +8342,6 @@
       "source_location": "L445"
     },
     {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_d810_ng_ida_\u672c\u5730\u9996\u9009",
-      "label": "d810-ng (IDA) \u2014 \u672c\u5730\u9996\u9009",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "d810-ng (ida) \u2014 \u672c\u5730\u9996\u9009",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L179"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_deobfbr_br_\u6df7\u6dc6\u4e13\u9879",
-      "label": "DeObfBR \u2014 BR \u6df7\u6dc6\u4e13\u9879",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "deobfbr \u2014 br \u6df7\u6dc6\u4e13\u9879",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L228"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_deobfuscation_frameworks",
-      "label": "Deobfuscation Frameworks",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "deobfuscation frameworks",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L175"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_deollvm_arm64_unicorn",
-      "label": "deollvm \u2014 ARM64 Unicorn",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "deollvm \u2014 arm64 unicorn",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L232"
-    },
-    {
       "id": "agents_skills_reverse_engineering_references_tools_advanced_diaphora",
       "label": "Diaphora",
       "_origin": "ast",
@@ -8451,18 +8390,6 @@
       "source_location": "L750"
     },
     {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_goomba_ghidra",
-      "label": "GOOMBA (Ghidra)",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "goomba (ghidra)",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L236"
-    },
-    {
       "id": "agents_skills_reverse_engineering_references_tools_advanced_ld_preload_to_dump_execute_only_binary_backdoorctf_2017",
       "label": "LD_PRELOAD to Dump Execute-Only Binary (BackdoorCTF 2017)",
       "_origin": "ast",
@@ -8497,54 +8424,6 @@
       "norm_label": "manticore (symbolic execution)",
       "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
       "source_location": "L373"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_miasm",
-      "label": "Miasm",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "miasm",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L248"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_obpo_plugin_ida_\u6548\u679c\u6700\u5f3a_\u4e91\u63d2\u4ef6",
-      "label": "obpo-plugin (IDA) \u2014 \u6548\u679c\u6700\u5f3a\uff0c\u4e91\u63d2\u4ef6",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "obpo-plugin (ida) \u2014 \u6548\u679c\u6700\u5f3a,\u4e91\u63d2\u4ef6",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L201"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_ollvm_breaker_binary_ninja",
-      "label": "ollvm-breaker (Binary Ninja)",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "ollvm-breaker (binary ninja)",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L224"
-    },
-    {
-      "id": "agents_skills_reverse_engineering_references_tools_advanced_ollvm_unflattener_miasm_\u7eaf\u811a\u672c",
-      "label": "ollvm-unflattener \u2014 Miasm \u7eaf\u811a\u672c",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "tools-advanced.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "ollvm-unflattener \u2014 miasm \u7eaf\u811a\u672c",
-      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
-      "source_location": "L214"
     },
     {
       "id": "agents_skills_reverse_engineering_references_tools_advanced_patching_strategies",
@@ -8713,6 +8592,18 @@
       "norm_label": "watchpoints",
       "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
       "source_location": "L540"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_dynamic",
+      "label": "tools-dynamic.md",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "tools-advanced.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "tools-dynamic.md",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-dynamic.md",
+      "source_location": "L1"
     },
     {
       "id": "contributing",
@@ -10847,6 +10738,114 @@
       "source_location": "L139"
     },
     {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_d810_ng_ida_\u672c\u5730\u9996\u9009",
+      "label": "d810-ng (IDA) \u2014 \u672c\u5730\u9996\u9009",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "d810-ng (ida) \u2014 \u672c\u5730\u9996\u9009",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L179"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_deobfbr_br_\u6df7\u6dc6\u4e13\u9879",
+      "label": "DeObfBR \u2014 BR \u6df7\u6dc6\u4e13\u9879",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deobfbr \u2014 br \u6df7\u6dc6\u4e13\u9879",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L228"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_deobfuscation_frameworks",
+      "label": "Deobfuscation Frameworks",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deobfuscation frameworks",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L175"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_deollvm_arm64_unicorn",
+      "label": "deollvm \u2014 ARM64 Unicorn",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deollvm \u2014 arm64 unicorn",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L232"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_goomba_ghidra",
+      "label": "GOOMBA (Ghidra)",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "goomba (ghidra)",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L236"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_miasm",
+      "label": "Miasm",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "miasm",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L248"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_obpo_plugin_ida_\u6548\u679c\u6700\u5f3a_\u4e91\u63d2\u4ef6",
+      "label": "obpo-plugin (IDA) \u2014 \u6548\u679c\u6700\u5f3a\uff0c\u4e91\u63d2\u4ef6",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "obpo-plugin (ida) \u2014 \u6548\u679c\u6700\u5f3a,\u4e91\u63d2\u4ef6",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L201"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_ollvm_breaker_binary_ninja",
+      "label": "ollvm-breaker (Binary Ninja)",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ollvm-breaker (binary ninja)",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L224"
+    },
+    {
+      "id": "agents_skills_reverse_engineering_references_tools_advanced_ollvm_unflattener_miasm_\u7eaf\u811a\u672c",
+      "label": "ollvm-unflattener \u2014 Miasm \u7eaf\u811a\u672c",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "Deobfuscation Frameworks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ollvm-unflattener \u2014 miasm \u7eaf\u811a\u672c",
+      "source_file": ".agents/skills/reverse-engineering/references/tools-advanced.md",
+      "source_location": "L214"
+    },
+    {
       "id": "agents_skills_protocol_reverse_engineering_resources_implementation_playbook",
       "label": "implementation-playbook.md",
       "_origin": "ast",
@@ -11951,6 +11950,18 @@
       "type": "external"
     },
     {
+      "id": "hid",
+      "label": "hid",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "hid",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "os",
       "label": "os",
       "_origin": "semantic",
@@ -11975,6 +11986,18 @@
       "type": "external"
     },
     {
+      "id": "threading",
+      "label": "threading",
+      "_origin": "semantic",
+      "community": 16,
+      "community_name": "ControllerBridge",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "threading",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "time",
       "label": "time",
       "_origin": "semantic",
@@ -11987,30 +12010,9 @@
       "type": "external"
     },
     {
-      "id": "hid",
-      "label": "hid",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "hid",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "threading",
-      "label": "threading",
-      "community": 16,
-      "community_name": "ControllerBridge",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "threading",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "tkinter",
       "label": "tkinter",
+      "_origin": "semantic",
       "community": 16,
       "community_name": "ControllerBridge",
       "external": true,
@@ -12022,6 +12024,7 @@
     {
       "id": "vgamepad",
       "label": "vgamepad",
+      "_origin": "semantic",
       "community": 16,
       "community_name": "ControllerBridge",
       "external": true,
@@ -12053,7 +12056,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/gui.py",
-      "source_location": "L26",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "app_gui_cowlapp_init",
+      "target": "app_gui_cowlapp_poll_diagnostics",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/gui.py",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -12065,7 +12080,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/gui.py",
-      "source_location": "L266",
+      "source_location": "L270",
       "weight": 1.0
     },
     {
@@ -12077,7 +12092,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L112",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -12089,7 +12104,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L117",
+      "source_location": "L134",
       "weight": 1.0
     },
     {
@@ -12101,7 +12116,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L118",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -12113,7 +12128,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L147",
+      "source_location": "L175",
       "weight": 1.0
     },
     {
@@ -12125,7 +12140,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L156",
+      "source_location": "L180",
       "weight": 1.0
     },
     {
@@ -12137,7 +12152,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L52",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -12149,7 +12164,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "core/bridge.py",
-      "source_location": "L67",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -21171,7 +21186,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L264",
+      "source_location": "L268",
       "weight": 1.0
     },
     {
@@ -21237,7 +21252,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "core/bridge.py",
-      "source_location": "L18",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -22766,7 +22781,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L186",
+      "source_location": "L189",
       "weight": 1.0
     },
     {
@@ -22777,7 +22792,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L190",
+      "source_location": "L193",
       "weight": 1.0
     },
     {
@@ -22788,29 +22803,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L194",
+      "source_location": "L196",
       "weight": 1.0
     },
     {
       "source": "app_gui_cowlapp",
-      "target": "app_gui_cowlapp_on_bridge_input",
+      "target": "app_gui_cowlapp_poll_diagnostics",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L241",
-      "weight": 1.0
-    },
-    {
-      "source": "app_gui_cowlapp",
-      "target": "app_gui_cowlapp_apply_input_ui",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/gui.py",
-      "source_location": "L244",
+      "source_location": "L242",
       "weight": 1.0
     },
     {
@@ -22821,7 +22825,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L260",
+      "source_location": "L264",
       "weight": 1.0
     },
     {
@@ -22832,95 +22836,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/gui.py",
-      "source_location": "L30",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_run_loop",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_apply_inputs_to_vgamepad",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L165",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_init",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_set_virtual_xinput",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L34",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_start",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L54",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_stop",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L62",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_notify_status",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L73",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_controllerbridge",
-      "target": "core_bridge_controllerbridge_close_device",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L80",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -22931,7 +22847,95 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "core/bridge.py",
-      "source_location": "L88",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_run_loop",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_apply_inputs_to_vgamepad",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_init",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_set_virtual_xinput",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_start",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_stop",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_notify_status",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_controllerbridge",
+      "target": "core_bridge_controllerbridge_close_device",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -22968,6 +22972,17 @@
       "weight": 1.0
     },
     {
+      "source": "app_gui_rationale_243",
+      "target": "app_gui_cowlapp_poll_diagnostics",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/gui.py",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
       "source": "core_bridge_rationale_1",
       "target": "core_bridge",
       "relation": "rationale_for",
@@ -22979,47 +22994,47 @@
       "weight": 1.0
     },
     {
-      "source": "core_bridge_rationale_35",
-      "target": "core_bridge_controllerbridge_set_virtual_xinput",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L35",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_rationale_55",
-      "target": "core_bridge_controllerbridge_start",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L55",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_rationale_63",
-      "target": "core_bridge_controllerbridge_stop",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/bridge.py",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "core_bridge_rationale_89",
+      "source": "core_bridge_rationale_107",
       "target": "core_bridge_controllerbridge_find_mirage",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "core/bridge.py",
-      "source_location": "L89",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_rationale_53",
+      "target": "core_bridge_controllerbridge_set_virtual_xinput",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_rationale_73",
+      "target": "core_bridge_controllerbridge_start",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "core_bridge_rationale_81",
+      "target": "core_bridge_controllerbridge_stop",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/bridge.py",
+      "source_location": "L81",
       "weight": 1.0
     },
     {

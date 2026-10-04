@@ -1,17 +1,17 @@
 # Graph Report - COWL  (2026-10-04)
 
 ## Corpus Check
-- 57 files · ~75,800 words
+- 57 files · ~76,792 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 8 file(s) not represented in the graph (top: (none) 8)
+- Unclassified: 9 file(s) not represented in the graph (top: (none) 9)
 
 ## Summary
-- 1000 nodes · 1058 edges · 62 communities (53 shown, 9 thin omitted)
+- 1011 nodes · 1076 edges · 65 communities (56 shown, 9 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d47ead09`
+- Built from commit: `20a3044d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,15 +36,15 @@
 - macOS / iOS Reversing
 - RE Agent 工作流门闩（静态↔动态）
 - Reverse Engineering
-- 3. All Active Peripherals Enumerated on System
+- COWL — Development Roadmap
 - CTF Reverse - Platform & Framework-Specific Techniques
 - CTF Reverse - Competition-Specific Patterns (Part 1)
 - 加解密 / 编解码工具速查
-- COWL — Development Roadmap
+- 🎮 COWL
 - 逆向工程参考资源汇总
 - Go / Rust Binary Reverse Engineering
 - CTF Reverse - Patterns & Techniques
-- EXP-002: Physical Mode Transition Observation
+- 2. Chronological State Log
 - 1. Core Principles & Non-Negotiable Directives
 - CTF Reverse - Hardware and Advanced Architecture Reversing
 - Hardware / Embedded Interface Security
@@ -56,7 +56,7 @@
 - Security & Hardware Safety Policy
 - OmniRoute — Multi-Channel Message Routing & Aggregation
 - Custom VM Reversing
-- Contributing to COWL
+- README.md
 - COWL — Project Specification
 - Anti-Debugging Techniques
 - Nanomites
@@ -76,8 +76,11 @@
 - workflows/graphify.md
 - EXP-003: Programmatic Mode-Switch Investigation
 - EXP-004: Official Software & Legitimate Traffic Investigation
-- 5. Answers to the Core Project Questions
+- EXP-005: Software-Triggerable Mode Switch Investigation
 - Deobfuscation Frameworks
+- 5. Answers to the Core Project Questions
+- EXP-002: Physical Mode Transition Observation
+- 2. Systematic Research & Evidence Gathering
 
 ## God Nodes (most connected - your core abstractions)
 1. `CTF Case Notes` - 54 edges
@@ -102,7 +105,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (62 total, 9 thin omitted)
+## Communities (65 total, 9 thin omitted)
 
 ### Community 0 - "CTF Case Notes"
 Cohesion: 0.04
@@ -184,9 +187,9 @@ Nodes (18): 0.1 Transition handoff（decision delta）, 0.5 用户指令可行�
 Cohesion: 0.11
 Nodes (19): Additional Resources, Common Encryption Patterns, Comparison Direction (Critical!), Decoy Flag Detection, Deep-Dive Notes, GDB PIE Debugging, Initial Analysis, Limitations (+11 more)
 
-### Community 20 - "3. All Active Peripherals Enumerated on System"
-Cohesion: 0.14
-Nodes (13): 1. Executive Summary, 2. Active Game Controller Hardware Profile, 3. All Active Peripherals Enumerated on System, 4. Hardware Provenance & Mode Correlation, 5. Classification of Findings, 6. Next Steps for COWL Protocol Research, Device: `HIDI2C Device`, Device: `Kreo Hive RGB` (+5 more)
+### Community 20 - "COWL — Development Roadmap"
+Cohesion: 0.09
+Nodes (21): 1. Executive Summary, 2. Active Game Controller Hardware Profile, 3. All Active Peripherals Enumerated on System, 4. Hardware Provenance & Mode Correlation, 5. Classification of Findings, 6. Next Steps for COWL Protocol Research, Device: `HIDI2C Device`, Device: `Kreo Hive RGB` (+13 more)
 
 ### Community 21 - "CTF Reverse - Platform & Framework-Specific Techniques"
 Cohesion: 0.11
@@ -200,9 +203,9 @@ Nodes (17): Backdoored Shared Library Detection via String Diffing (Hack.lu CTF 
 Cohesion: 0.12
 Nodes (15): Ciphey 使用, CyberChef 使用, RSA 攻击, XOR 分析, 加解密 / 编解码工具速查, 古典密码, 哈希识别与破解, 在线资源 (+7 more)
 
-### Community 24 - "COWL — Development Roadmap"
+### Community 24 - "🎮 COWL"
 Cohesion: 0.12
-Nodes (14): COWL — Development Roadmap, Phase 0: Repository Foundation & Governance *(Current)*, Phase 1: Safe Device Identification & Descriptor Analysis, Phase 2: Traffic Capture & Protocol Analysis, Phase 3: Core Protocol Engine & Mock Testing, Phase 4: CLI & Diagnostic Tooling, Phase 5: Application / UI Layer, Phase 6: Multi-Device Extensibility (+6 more)
+Nodes (17): 1. Prerequisites, 2. Installation, 3. Launching COWL, 🏗️ Architecture, 🤝 Contributing, 🎮 COWL, 🔬 Empirical Research Foundation, ⚡ Features (+9 more)
 
 ### Community 25 - "逆向工程参考资源汇总"
 Cohesion: 0.14
@@ -216,9 +219,9 @@ Nodes (12): Go, Go / Rust Binary Reverse Engineering, Limitations, Rust, When to
 Cohesion: 0.15
 Nodes (13): Byte-Wise Uniform Transforms, CTF Reverse - Patterns & Techniques, Custom Mangle Function Reversing, Hex-Encoded String Comparison, INT3 Patch + Coredump Brute-Force Oracle (Pwn2Win 2016), Malware Anti-Analysis Bypass via Patching, Mixed-Mode (x86-64 / x86) Stagers, Multi-Stage Shellcode Loaders (+5 more)
 
-### Community 28 - "EXP-002: Physical Mode Transition Observation"
-Cohesion: 0.15
-Nodes (12): 1. Executive Summary, 2. Chronological State Log, 3. Side-by-Side Mode Comparison, 4. Key Findings & Implications for COWL, 5. Classification of Evidence, Composite Interfaces Exposed (State #2):, EXP-002: Physical Mode Transition Observation, HID Descriptor & Capabilities (State #1): (+4 more)
+### Community 28 - "2. Chronological State Log"
+Cohesion: 0.29
+Nodes (7): 2. Chronological State Log, Composite Interfaces Exposed (State #2):, HID Descriptor & Capabilities (State #1):, HID Descriptor & Capabilities (State #2, Interface MI_03):, State #1 (Baseline): XInput Emulation Mode, State #2: Sony DualShock 4 Emulation Mode, Transition Event
 
 ### Community 29 - "1. Core Principles & Non-Negotiable Directives"
 Cohesion: 0.17
@@ -242,7 +245,7 @@ Nodes (9): apply_to_gamepad(), parse_ds4_report(), Unit self-test for DS4 to Vir
 
 ### Community 34 - "2. Component Responsibilities"
 Cohesion: 0.22
-Nodes (8): 1. Architectural Overview, 2.1 Core Domain (`core/`), 2.2 Transport Layer, 2.3 Application Layer (`app/`), 2.4 Diagnostic Tooling (`tools/device-probe/`), 2. Component Responsibilities, 3. Structural Safety Guarantees, COWL — System Architecture
+Nodes (8): 1. Architectural Overview, 2.1 Core Domain (`core/`), 2.2 Virtual Emulation Subsystem (ViGEmBus), 2.3 Application Layer (`app/`), 2.4 Cloaking Subsystem (HidHide), 2. Component Responsibilities, 3. Structural Safety Guarantees, COWL — System Architecture
 
 ### Community 35 - "Protocol Reverse Engineering"
 Cohesion: 0.29
@@ -264,8 +267,8 @@ Nodes (5): 1. Core Routing Architecture, 2. Channel Directory & Dispatch Matrix,
 Cohesion: 0.33
 Nodes (6): Analysis Steps, Common VM Patterns, Custom VM Reverse Engineering via Fuzzing and Instruction Set Discovery (hxp CTF 2017), Custom VM Reversing, RVA-Based Opcode Dispatching, State Machine VMs (90K+ states)
 
-### Community 40 - "Contributing to COWL"
-Cohesion: 0.33
+### Community 40 - "README.md"
+Cohesion: 0.20
 Nodes (5): 1. Guiding Principles, 2. Research & Findings Process, 3. What We Do NOT Accept, 4. Development Workflow, Contributing to COWL
 
 ### Community 41 - "COWL — Project Specification"
@@ -301,37 +304,49 @@ Cohesion: 0.67
 Nodes (3): Loop Boundary State Updates, Sign Extension, x86-64 Gotchas
 
 ### Community 58 - "EXP-003: Programmatic Mode-Switch Investigation"
-Cohesion: 0.14
+Cohesion: 0.15
 Nodes (13): 1. Objective, 2.1 Findings from EXP-001 (Device Probe), 2.2 Findings from EXP-002 (Mode Transition Observation), 2. Existing Empirical Evidence, 3.1 Review of Manufacturer Mode-Switch Documentation, 3.2 USB/HID Architecture Analysis of State 1 (XInput: `045E:028E`), 3.3 USB/HID Architecture Analysis of State 2 (DS4: `054C:05C4`), 3. Investigation Performed (+5 more)
 
 ### Community 59 - "EXP-004: Official Software & Legitimate Traffic Investigation"
-Cohesion: 0.15
+Cohesion: 0.17
 Nodes (12): 1. Objective, 2.1 Audit of Kreo Kontrol (`kontrol.kreo-tech.com`), 2.2 Audit of Official Kreo Downloads & Support Documentation, 2. Investigation Methodology & Evidence Gathering, 3. Findings & Protocol Analysis, 4.1 State 1 (XInput Mode — `045E:028E`), 4.2 State 2 (DualShock 4 Mode — `054C:05C4`), 4. USB Interface Observation Summary (+4 more)
 
-### Community 60 - "5. Answers to the Core Project Questions"
-Cohesion: 0.11
-Nodes (18): 1. Executive Summary & Objective, 2.1 Manufacturer Documentation & Manual Audit, 2.2 Hardware Platform & ShanWan ODM Architecture Analysis, 2.3 Detailed Analysis of the Physical Transition, 2. Systematic Research & Evidence Gathering, 3.1 Pathway A: Host Command in State 1 (Xbox 360: `045E:028E`), 3.2 Pathway B: Host Command in State 2 (PS4 / DS4: `054C:05C4`), 3. Analysis of Host-Side Communication Interfaces (+10 more)
+### Community 60 - "EXP-005: Software-Triggerable Mode Switch Investigation"
+Cohesion: 0.29
+Nodes (7): 1. Executive Summary & Objective, 3.1 Pathway A: Host Command in State 1 (Xbox 360: `045E:028E`), 3.2 Pathway B: Host Command in State 2 (PS4 / DS4: `054C:05C4`), 3. Analysis of Host-Side Communication Interfaces, 4. Evaluation of Hypotheses & Ruled-Out Mechanisms, 6. Conclusion & Recommendation, EXP-005: Software-Triggerable Mode Switch Investigation
 
 ### Community 61 - "Deobfuscation Frameworks"
 Cohesion: 0.22
 Nodes (9): d810-ng (IDA) — 本地首选, DeObfBR — BR 混淆专项, Deobfuscation Frameworks, deollvm — ARM64 Unicorn, GOOMBA (Ghidra), Miasm, obpo-plugin (IDA) — 效果最强，云插件, ollvm-breaker (Binary Ninja) (+1 more)
 
+### Community 62 - "5. Answers to the Core Project Questions"
+Cohesion: 0.29
+Nodes (7): 5. Answers to the Core Project Questions, Question 1: Is there evidence of a host-side mode-switch mechanism?, Question 2: If yes, what is the mechanism?, Question 3: What evidence supports it?, Question 4: If no, what mechanisms were ruled out?, Question 5: What is the next safest experiment?, Question 6: What confidence level do we have that COWL can achieve its original goal?
+
+### Community 63 - "EXP-002: Physical Mode Transition Observation"
+Cohesion: 0.33
+Nodes (5): 1. Executive Summary, 3. Side-by-Side Mode Comparison, 4. Key Findings & Implications for COWL, 5. Classification of Evidence, EXP-002: Physical Mode Transition Observation
+
+### Community 64 - "2. Systematic Research & Evidence Gathering"
+Cohesion: 0.50
+Nodes (4): 2.1 Manufacturer Documentation & Manual Audit, 2.2 Hardware Platform & ShanWan ODM Architecture Analysis, 2.3 Detailed Analysis of the Physical Transition, 2. Systematic Research & Evidence Gathering
+
 ## Knowledge Gaps
-- **702 isolated node(s):** `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `graphify` (+697 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 765 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **712 isolated node(s):** `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `graphify` (+707 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 768 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Reverse Engineering Field Notes` connect `Specialized Patterns` to `CTF Case Notes`, `tools-advanced.md`?**
-  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+  _High betweenness centrality (0.090) - this node is a cross-community bridge._
 - **Why does `CTF Case Notes` connect `CTF Case Notes` to `Specialized Patterns`?**
-  _High betweenness centrality (0.057) - this node is a cross-community bridge._
-- **Why does `CTF Reverse - Patterns & Techniques` connect `CTF Reverse - Patterns & Techniques` to `tools-advanced.md`, `Custom VM Reversing`, `Anti-Debugging Techniques`, `Nanomites`, `S-Box / Keystream Generation`, `LLVM (Low Level Virtual Machine) Obfuscation (Control Flow Flattening)`, `Exception Handler Obfuscation`, `Memory Dump Analysis`, `x86-64 Gotchas`, `SECCOMP/BPF Filter Analysis`, `Known-Plaintext XOR (Flag Prefix)`, `Self-Modifying Code`, `Signal Handler Chain + LD_PRELOAD Oracle (Nuit du Hack 2016)`?**
-  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+  _High betweenness centrality (0.079) - this node is a cross-community bridge._
+- **Why does `CTF Reverse - Anti-Analysis Techniques & Bypasses` connect `CTF Reverse - Anti-Analysis Techniques & Bypasses` to `tools-advanced.md`?**
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
 - **What connects `HIDP_BUTTON_CAPS`, `HIDP_VALUE_CAPS`, `HIDP_BUTTON_CAPS` to the rest of the system?**
-  _702 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _712 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `CTF Case Notes` be split into smaller, more focused modules?**
   _Cohesion score 0.037037037037037035 - nodes in this community are weakly interconnected._
 - **Should `mode_monitor.py` be split into smaller, more focused modules?**

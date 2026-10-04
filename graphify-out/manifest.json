@@ -246,9 +246,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1791098038.4825642,
-    "seen": 1791103184.360252,
-    "ast_hash": "92fd6b59ec37bf3473dfea79e3a2cbf8",
+    "mtime": 1791131917.7139144,
+    "seen": 1791131987.5703824,
+    "ast_hash": "73c378ab50d7a19c283ddc206fe916ba",
     "semantic_hash": ""
   },
   "SECURITY.md": {
@@ -258,9 +258,9 @@
     "semantic_hash": ""
   },
   "docs/ARCHITECTURE.md": {
-    "mtime": 1791098114.4446507,
-    "seen": 1791103184.3602576,
-    "ast_hash": "8a2c74ab00b21b4be5fa88d6e0a2ba03",
+    "mtime": 1791131958.5771515,
+    "seen": 1791131987.5703857,
+    "ast_hash": "1bf839dc29b65305cdd1a4c159cf45b5",
     "semantic_hash": ""
   },
   "docs/PROJECT.md": {
@@ -270,9 +270,9 @@
     "semantic_hash": ""
   },
   "docs/ROADMAP.md": {
-    "mtime": 1791098097.6948802,
-    "seen": 1791103184.3602614,
-    "ast_hash": "85832e2d5ac73dbac729c99fb02343c0",
+    "mtime": 1791131930.2043502,
+    "seen": 1791131987.5703886,
+    "ast_hash": "7577b8a7e590c0a6bb8f958ba77753ec",
     "semantic_hash": ""
   },
   "docs/research/experiments/EXP-002-mode-transition.md": {
@@ -282,9 +282,9 @@
     "semantic_hash": ""
   },
   "docs/research/mirage_device_probe_report.md": {
-    "mtime": 1791106799.3793423,
-    "seen": 1791107221.582502,
-    "ast_hash": "0b41d4a3bb4e25f4cef86c149a6fdb5e",
+    "mtime": 1791118947.320394,
+    "seen": 1791131987.5703957,
+    "ast_hash": "b3e916c2a81210ffa2f819755bab3b62",
     "semantic_hash": ""
   },
   "docs/research/experiments/EXP-003-programmatic-mode-switch.md": {

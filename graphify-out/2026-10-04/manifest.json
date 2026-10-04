@@ -306,15 +306,15 @@
     "semantic_hash": ""
   },
   "app/gui.py": {
-    "mtime": 1791116985.0119998,
-    "seen": 1791117020.2392058,
-    "ast_hash": "90dcda39aa43853e79174eac39f8eb59",
+    "mtime": 1791117857.968409,
+    "seen": 1791117878.1311476,
+    "ast_hash": "e195197d1e76fb0d59eb71afb313fe70",
     "semantic_hash": ""
   },
   "core/bridge.py": {
-    "mtime": 1791116959.7292166,
-    "seen": 1791117020.2392085,
-    "ast_hash": "12bf68d05841582398d3f31d8781d389",
+    "mtime": 1791117836.8162155,
+    "seen": 1791117878.1311502,
+    "ast_hash": "9bbd1ba8342d52272363f4058a3617f7",
     "semantic_hash": ""
   },
   "core/protocol.py": {

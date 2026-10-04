@@ -31,10 +31,11 @@
   "29": "1. Core Principles & Non-Negotiable Directives",
   "30": "CTF Reverse - Hardware and Advanced Architecture Reversing",
   "31": "Hardware / Embedded Interface Security",
-  "32": "reverse-engineering/SKILL.md",
+  "32": "CTF Reverse - Competition-Specific Patterns (Part 2)",
   "33": "test_bridge_mapping.py",
   "34": "2. Component Responsibilities",
   "35": "Protocol Reverse Engineering",
+  "36": "AI 辅助逆向工程",
   "37": "Security & Hardware Safety Policy",
   "38": "OmniRoute — Multi-Channel Message Routing & Aggregation",
   "39": "Custom VM Reversing",
@@ -58,5 +59,6 @@
   "57": "workflows/graphify.md",
   "58": "EXP-003: Programmatic Mode-Switch Investigation",
   "59": "EXP-004: Official Software & Legitimate Traffic Investigation",
-  "60": "5. Answers to the Core Project Questions"
+  "60": "5. Answers to the Core Project Questions",
+  "61": "Deobfuscation Frameworks"
 }
